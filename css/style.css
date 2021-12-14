@@ -171,6 +171,12 @@ img { max-width: 100%;}
     background-color: var(--primary);
 }
 
+@media (min-width: 768px) {
+    .boton--secundario{
+        margin-left: 4rem;
+    }
+}
+
 .cursos {
     list-style: none;
 }
